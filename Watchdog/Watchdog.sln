@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFE.Common.Logging.Log4Net", "..\EFE\EFE.Common.Logging.Log4Net\EFE.Common.Logging.Log4Net.csproj", "{4D408132-A2F7-47E2-8134-4CBC278CF793}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Eve.Common.Logging", "..\EFE\Eve.Common.Logging\Eve.Common.Logging.shproj", "{BE858DDC-0330-48B4-9C97-21BB9FDECA08}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Eve.Common.Core", "..\EFE\Eve.Common.Core\Eve.Common.Core.shproj", "{ED1C16A4-0235-4714-B8A7-70E41754B41B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Eve.Windows.Forms", "..\EFE\Eve.Windows.Forms\Eve.Windows.Forms.shproj", "{DE011C8D-4FA2-4F84-A3DA-8D0E401AE018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFE.Windows", "..\EFE\EFE.Windows\EFE.Windows.csproj", "{D15DFF83-9D04-428F-B453-8D8055DDA0BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watchdog Application", "Watchdog Application\Watchdog Application.csproj", "{41EDFF64-DE6F-46CF-957D-44D1E6270BFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Watchdog", "Watchdog\Watchdog.csproj", "{469A3250-FE16-4CC9-A2D1-D9F46CEEB4B2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Eve.Diagnostics.Processes", "..\EFE\Eve.Diagnostics.Processes\Eve.Diagnostics.Processes.shproj", "{9B808391-AE92-46D0-B18D-43F50F747228}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\EFE\Eve.Diagnostics.Processes\Eve.Diagnostics.Processes.projitems*{9b808391-ae92-46d0-b18d-43f50f747228}*SharedItemsImports = 13
+		..\EFE\Eve.Common.Logging\Eve.Common.Logging.projitems*{be858ddc-0330-48b4-9c97-21bb9fdeca08}*SharedItemsImports = 13
+		..\EFE\Eve.Common.Core\Eve.Common.Core.projitems*{d15dff83-9d04-428f-b453-8d8055dda0bc}*SharedItemsImports = 5
+		..\EFE\Eve.Common.Logging\Eve.Common.Logging.projitems*{d15dff83-9d04-428f-b453-8d8055dda0bc}*SharedItemsImports = 5
+		..\EFE\Eve.Diagnostics.Processes\Eve.Diagnostics.Processes.projitems*{d15dff83-9d04-428f-b453-8d8055dda0bc}*SharedItemsImports = 5
+		..\EFE\Eve.Windows.Forms\Eve.Windows.Forms.projitems*{d15dff83-9d04-428f-b453-8d8055dda0bc}*SharedItemsImports = 5
+		..\EFE\Eve.Windows.Forms\Eve.Windows.Forms.projitems*{de011c8d-4fa2-4f84-a3da-8d0e401ae018}*SharedItemsImports = 13
+		..\EFE\Eve.Common.Core\Eve.Common.Core.projitems*{ed1c16a4-0235-4714-b8a7-70e41754b41b}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D408132-A2F7-47E2-8134-4CBC278CF793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D408132-A2F7-47E2-8134-4CBC278CF793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D408132-A2F7-47E2-8134-4CBC278CF793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D408132-A2F7-47E2-8134-4CBC278CF793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15DFF83-9D04-428F-B453-8D8055DDA0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15DFF83-9D04-428F-B453-8D8055DDA0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15DFF83-9D04-428F-B453-8D8055DDA0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15DFF83-9D04-428F-B453-8D8055DDA0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41EDFF64-DE6F-46CF-957D-44D1E6270BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41EDFF64-DE6F-46CF-957D-44D1E6270BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41EDFF64-DE6F-46CF-957D-44D1E6270BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41EDFF64-DE6F-46CF-957D-44D1E6270BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469A3250-FE16-4CC9-A2D1-D9F46CEEB4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469A3250-FE16-4CC9-A2D1-D9F46CEEB4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469A3250-FE16-4CC9-A2D1-D9F46CEEB4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469A3250-FE16-4CC9-A2D1-D9F46CEEB4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CF3CDF0-8952-49A8-9901-049FD9E45235}
+	EndGlobalSection
+EndGlobal

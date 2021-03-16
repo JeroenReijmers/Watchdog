@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>EFE</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Windows\" />
+  </ItemGroup>
+
+  <Import Project="..\Eve.Common.Core\Eve.Common.Core.projitems" Label="Shared" />
+
+  <Import Project="..\Eve.Common.Logging\Eve.Common.Logging.projitems" Label="Shared" />
+
+  <Import Project="..\Eve.Windows.Forms\Eve.Windows.Forms.projitems" Label="Shared" />
+
+  <Import Project="..\Eve.Diagnostics.Processes\Eve.Diagnostics.Processes.projitems" Label="Shared" />
+
+</Project>
