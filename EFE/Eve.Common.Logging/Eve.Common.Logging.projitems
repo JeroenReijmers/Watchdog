@@ -12,5 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Common\Logging\Base\LoggerBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Logging\ILogger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Logging\Level.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Logging\Sample\ConsoleLogAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Logging\Sample\MultiLogger.cs" />
   </ItemGroup>
 </Project>
